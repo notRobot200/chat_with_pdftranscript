@@ -3,7 +3,6 @@ langchain
 langchain_community
 langchain_together
 sentence-transformers
-chromadb
 pypdf
 python-dateutil
 python-magic
@@ -11,3 +10,4 @@ typing-extensions
 langchain_huggingface
 langchain_chroma
 pysqlite3-binary
+chromadb==0.3.29
