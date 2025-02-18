@@ -1,3 +1,4 @@
+--upgrade pip
 streamlit
 langchain
 langchain_community
@@ -6,5 +7,5 @@ sentence-transformers
 chromadb
 pypdf
 python-dateutil
-python-magic-bin 
+python-magic
 typing-extensions
