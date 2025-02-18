@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain_community
+langchain_together
+sentence-transformers
+chromadb
+pypdf
+python-dateutil
+python-magic-bin typing-extensions
