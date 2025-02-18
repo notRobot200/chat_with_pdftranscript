@@ -8,3 +8,4 @@ pypdf
 python-dateutil
 python-magic
 typing-extensions
+langchain_huggingface
