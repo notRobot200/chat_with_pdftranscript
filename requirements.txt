@@ -6,4 +6,5 @@ sentence-transformers
 chromadb
 pypdf
 python-dateutil
-python-magic-bin typing-extensions
+python-magic-bin 
+typing-extensions
