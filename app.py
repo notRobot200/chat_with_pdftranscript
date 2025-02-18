@@ -1,3 +1,7 @@
+# Add this at the very top of app.py
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
 import os
 import streamlit as st
 from pdf_processing import load_and_process_pdf
@@ -10,11 +14,7 @@ import dateutil.parser
 
 torch.classes.__path__ = []
 
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
-import sqlite3
+# import sqlite3
 
 def initialize_session_state():
     """Initialize all session state variables"""
