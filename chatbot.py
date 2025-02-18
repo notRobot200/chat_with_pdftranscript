@@ -9,6 +9,12 @@ from langchain_chroma import Chroma
 from langchain.prompts import PromptTemplate
 
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+import sqlite3
+
 class ChatbotInitError(Exception):
     """Custom exception for chatbot initialization errors."""
     pass
