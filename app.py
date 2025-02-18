@@ -10,6 +10,11 @@ import dateutil.parser
 
 torch.classes.__path__ = []
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+import sqlite3
 
 def initialize_session_state():
     """Initialize all session state variables"""
