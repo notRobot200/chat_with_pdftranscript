@@ -20,7 +20,7 @@ This project leverages gemma2-9b-it, a powerful model used for processing and an
 
 ## 📝 License:
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License.
 
 ## 📬 Contact:
 
