@@ -45,6 +45,10 @@ def display_file_info():
 
 
 def main():
+    st.set_page_config(
+        page_title="Chat with your PDF Transcript",
+        page_icon="📕"
+    )
     st.title("📄 Chat with Your PDF Transcript/Text")
     st.sidebar.header("📂 Upload or Select an Existing PDF")
 
