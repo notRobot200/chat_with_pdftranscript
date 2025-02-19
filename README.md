@@ -1,4 +1,4 @@
-# 📄💬 chat_with_pdftranscript
+# chat_with_pdftranscript
 
 ## 📌 Overview:
 
