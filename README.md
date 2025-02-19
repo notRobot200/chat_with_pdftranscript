@@ -1,10 +1,10 @@
 # 📄💬 chat_with_pdftranscript
 
-📌 Overview:
+## 📌 Overview:
 
 chat_with_pdftranscript is a smart tool that helps you interact with PDF transcript files 📑 in a conversational way. Whether it's a YouTube video transcript ▶️, an interview transcript 🎤, or any other text-based PDF document, this project makes it easy to search, extract, and analyze content efficiently. 🚀
 
-✨ Features:
+## ✨ Features:
 
 - PDF Transcript Processing – Read and analyze transcript files from different sources. 📂
 
@@ -14,15 +14,15 @@ chat_with_pdftranscript is a smart tool that helps you interact with PDF transcr
 
 - Interactive Chat Interface – Ask questions and get instant answers from the transcript. 💡
 
-📚 Model Used:
+## 📚 Model Used:
 
 This project leverages gemma2-9b-it, a powerful model used for processing and analyzing text-based transcripts.
 
-📝 License:
+## 📝 License:
 
 This project is licensed under the MIT License.
 
-📬 Contact:
+## 📬 Contact:
 
 For any inquiries, reach out to:
 📧 Email: mhmmdadammajid@gmail.com
